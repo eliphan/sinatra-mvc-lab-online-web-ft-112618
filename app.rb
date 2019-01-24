@@ -5,6 +5,6 @@ class App < Sinatra::Base
       erb :user_input
     end
     
-    post '/' do
+    post '/pig_latin' do
     end
 end
