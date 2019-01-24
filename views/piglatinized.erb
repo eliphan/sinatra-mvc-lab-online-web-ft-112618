@@ -1,7 +1,3 @@
-<h2>
-  <%= @pig_latin %>
-</h2>
-
 <!DOCTYPE html>
   <html>
     <head>
@@ -10,7 +6,7 @@
     </head>
     <body>
       <h1>Pig Latinizer</h1>
-      
+          <%= @pig_latin %>
         <form method="POST" action="/piglatinize">
         <label for="phrase">Enter your phrase:</label>
         <input type="text" id="phrase" name='user_phrase'>
